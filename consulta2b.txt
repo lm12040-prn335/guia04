@@ -1,0 +1,1 @@
+SELECT n.nombre, COUNT(n) as con FROM Post p JOIN p.idCategoria n GROUP BY n ORDER BY con DESC

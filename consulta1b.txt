@@ -1,0 +1,2 @@
+SELECT DISTINCT usu.nombres, p.titulo, p.fecha FROM Usuario usu, PostPaso psp JOIN psp.post p  WHERE usu.idUsuario = psp.idUsuario 
+

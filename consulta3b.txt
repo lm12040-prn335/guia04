@@ -1,0 +1,2 @@
+SELECT sec.nombre, COUNT(sec) as c FROM TipoPostSeccion tps JOIN tps.seccion sec GROUP BY tps.seccion  ORDER BY c DESC
+
